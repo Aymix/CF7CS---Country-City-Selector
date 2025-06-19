@@ -1,0 +1,14 @@
+.wpcf7-form select[name*="country"],
+.wpcf7-form select[name*="city"] {
+    width: 100%;
+    max-width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.wpcf7-form select[disabled] {
+    background-color: #f5f5f5;
+    cursor: not-allowed;
+}
